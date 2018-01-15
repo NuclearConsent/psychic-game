@@ -41,7 +41,6 @@ function gameOver() {
   return game;
 }
 
-
 function game() {
   // Reset the game values before generating the page
   guesses = 10;
@@ -70,6 +69,5 @@ function game() {
   $(".flex-row").append(divLosses);
   $(".container").append(divGuesses);
   $(".container").append(divLetters);
-
   logic();
 }
